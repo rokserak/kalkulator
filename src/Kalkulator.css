@@ -1,0 +1,51 @@
+body {
+    background-color: #B75EF2;
+}
+
+table {
+    width: 100%
+}
+
+td {
+    height: 12vh;
+    vertical-align: middle;
+}
+
+button, .btn {
+    color: #F2F2F2;
+    width: 100%;
+    height: 100%;
+    border-color: #472C59;
+    font-size: 6vh;
+    font-weight: bold;
+    text-align: center;
+}
+
+.smallFont {
+    font-size: 5vh;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus{
+    outline:none;
+    box-shadow:none;
+}
+
+button:hover, .btn:hover {
+    background-color: #AEF249;
+    color: #472C59;
+}
+
+
+code {
+    size: 90vh;
+    color: #D5F26B;
+    background-color: #472C59;
+    font-size: 11vh;
+    display: block;
+    border-radius: 1vh;
+    padding: 1vh;
+}
+
+.empty {
+    color: #472C59;
+}
